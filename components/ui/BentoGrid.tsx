@@ -82,7 +82,7 @@ export const BentoGridItem = ({
                 </div>
                 {id === 6 && (
                     <BackgroundGradientAnimation>
-                        <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+                        {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold" /> */}
                     </BackgroundGradientAnimation>
                 )}
                 <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5')} >
@@ -127,11 +127,11 @@ export const BentoGridItem = ({
                                 }} />
                             </div>
                             <MagicButton
-                            title={copied ? 'Email copied' : 'Copy my email'}
-                            icon={<IoCopyOutline />}
-                            position="left"
-                            otherClasses="!bg-[#161a31]"
-                            handleClick={handleCopy}
+                                title={copied ? 'Email copied' : 'Copy my email'}
+                                icon={<IoCopyOutline />}
+                                position="left"
+                                otherClasses="!bg-[#161a31]"
+                                handleClick={handleCopy}
                             />
                         </div>
                     )}
