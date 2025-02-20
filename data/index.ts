@@ -205,16 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: ""
+    link: "https://github.com/Inventus-s"
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: ""
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: ""
+  // },
   {
     id: 3,
     img: "/link.svg",
-    link: ""
+    link: "https://www.linkedin.com/in/inventus/"
   },
 ];
