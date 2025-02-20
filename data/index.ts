@@ -88,11 +88,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Subscription Tracker API",
+    des: "A production-ready Subscription Management System with real users, real money, and real business logic.",
+    img: "/subscription-tracker.webp",
+    iconLists: ["/node.svg"],
+    link: "https://rb.gy/dv75et",
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
-
+      
 export const testimonials = [
   {
     quote:
