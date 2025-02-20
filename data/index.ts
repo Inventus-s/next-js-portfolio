@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Next.js Animated Portfolio",
+    des: "Dynamic Web Magic with Next.js, Tailwind CSS, and TypeScript.",
+    img: "/portfolio.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://mukundkumar.vercel.app/",
   },
   {
     id: 3,
