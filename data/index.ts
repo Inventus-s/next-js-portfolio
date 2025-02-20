@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Custom Shopify Checkout",
+    des: "Designed with a modular, secure architecture for scalability and seamless eCommerce integration.",
+    img: "/checkout.webp",
+    iconLists: ["/nuxt.svg", "/tail.svg", "/ts.svg"],
+    link: "https://rb.gy/zri2ih",
   },
   {
     id: 2,
