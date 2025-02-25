@@ -1,9 +1,11 @@
+'use client'
 import { FaLocationArrow } from 'react-icons/fa'
 import ButtonMagic from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
+    const gitHubLink = () => window.location.href = 'https://github.com/Inventus-s'
     return (
         <div className='pb-20 pt-36' >
             <div>
@@ -22,7 +24,7 @@ const Hero = () => {
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl' >
                         Hi, I&apos;m Mukund Kumar, a Next.js Developer based in India
                     </p>
-                    <ButtonMagic title="Show my work" icon={<FaLocationArrow />} position='right' otherClasses='gap-2' />
+                    <ButtonMagic title="Show my work" icon={<FaLocationArrow />} handleClick={gitHubLink} position='right' otherClasses='gap-2' />
                 </div>
             </div>
         </div>
