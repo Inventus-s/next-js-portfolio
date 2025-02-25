@@ -1,6 +1,5 @@
 'use client'
 import { projects } from '@/data'
-import Image from 'next/image'
 import { FaLocationArrow } from 'react-icons/fa'
 import { PinContainer } from './ui/3d-pin'
 
@@ -17,7 +16,7 @@ const RecentProjects = () => {
                         <PinContainer title={link} href={link} >
                             <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden lg:h-[30vh] h-[20vh]'>
                                 <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]' >
-                                    <img  src="/bg.png" alt="bg-img" />
+                                    <img src="/bg.png" alt="bg-img" />
                                 </div>
                                 <img src={img} alt={title} className='z-10 absolute bottom-0' />
                             </div>
