@@ -72,6 +72,14 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 4,
+    title: "BreachCheck",
+    des: "Check if your password has been exposed",
+    img: "/BreachCheck.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://breachcheck-xi.vercel.app/",
+  },
+  {
     id: 1,
     title: "Custom Shopify Checkout",
     des: "Designed with a modular, secure architecture for scalability and seamless eCommerce integration.",
@@ -95,16 +103,8 @@ export const projects = [
     iconLists: ["/node.svg"],
     link: "https://rb.gy/dv75et",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
 ];
-      
+
 export const testimonials = [
   {
     quote:
