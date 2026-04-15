@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 4,
     title: "BreachCheck",
-    des: "Check if your password has been exposed",
+    des: "Check if your password has been exposed.",
     img: "/BreachCheck.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://breachcheck-xi.vercel.app/",
